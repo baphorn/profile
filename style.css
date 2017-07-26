@@ -43,6 +43,10 @@ a{
 a:hover{
   color: #FB4848;
   text-decoration: none;
+  font-size: 35px
+}
+a:hover span{
+  display: none;
 }
 
 /* First simple components */
@@ -90,6 +94,29 @@ a:hover{
 .text-center {
   text-align: center;
 }
+.bellow-btn{
+  color: #14213D;
+}
+.text-white{
+  color: #FF9797
+}
+.footer {
+  color: #FF9797;
+  font-weight: lighter;
+  font-size: 14px;
+  text-align: center;
+}
+.footer-link {
+  font-weight: lighter;
+  font-size: 14px;
+  text-decoration: none;
+  color: #FF9797
+}
+.footer-link:hover{
+  font-weight: lighter;
+  color: white;
+  font-size: 14px;
+}
 
 /* Specific CSS rules */
 
@@ -99,12 +126,12 @@ a:hover{
   border: 3px solid #cccccc;
   margin: auto;
 }
-.bellow-btn{
-  color: #14213D;
-}
+
 #big-btn{
   font-size: 30px;
 }
+
+
 
 
 /*
