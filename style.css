@@ -1,0 +1,115 @@
+/* Colors and Fonts */
+
+body{
+  background: #C50000;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  color: #394869;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #14213D;
+  text-align: center;
+}
+
+h1{
+  color: #C50000;
+  font-size: 26px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 900;
+}
+
+h3{
+  font-size: 15px;
+  font-weight: 800;
+}
+
+p{
+  text-align: justify;
+  margin: 30px
+}
+
+a{
+  color: #C50000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FB4848;
+  text-decoration: none;
+}
+
+/* First simple components */
+.container{
+  width: 500px;
+  margin: 30px auto;
+}
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.list-inline {
+  padding: 0px;
+}
+/* le padding à 0 permet de retirer la marge qui existe par défaut lorsqu'on fait une liste*/
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.img-circle{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.number{
+  color: #C50000;
+}
+.btn-red{
+  background-color: #C50000;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.btn-red:hover{
+  background-color: #FB4848;
+  color: white;
+  font-size: 25px;
+}
+.text-center {
+  text-align: center;
+}
+
+/* Specific CSS rules */
+
+#img-profile{
+  width: 200px;
+  height: 200px;
+  border: 3px solid #cccccc;
+  margin: auto;
+}
+.bellow-btn{
+  color: #14213D;
+}
+#big-btn{
+  font-size: 30px;
+}
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
